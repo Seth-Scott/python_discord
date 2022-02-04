@@ -1,0 +1,9 @@
+---
+version: '3'
+services:
+  chappiebot:
+    container_name: 'chappie-bot'
+    image: chappie:latest
+    restart: always
+    environment:
+      - TOKEN=${TOKEN}
