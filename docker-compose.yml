@@ -2,6 +2,7 @@
 version: '3'
 services:
   chappiebot:
+    build: .
     container_name: 'chappie-bot'
     image: chappie:latest
     restart: always

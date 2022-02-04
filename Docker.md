@@ -22,3 +22,15 @@ This is takes image and spins up a service
 3. Give it a name
 4. Select an image (the one we built)
 5. Restart and environment variables
+
+Run this command:
+`docker-compose up -d`
+NOTE: -d flag will be detached
+
+## Using docker-compose only
+
+First build:
+`docker-compose build`
+
+Then launch:
+`docker-compose up -d`
