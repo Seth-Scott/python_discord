@@ -6,6 +6,7 @@ load_dotenv()
 
 TOKEN = os.getenv("TOKEN")
 
+
 client = discord.Client()
 print("Starting Discord bot..")
 print(f"VERSION: {discord.__version__}")

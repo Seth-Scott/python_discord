@@ -111,7 +111,7 @@ Previous tutorials and repos for Discord bots written in Python appear to be dea
 
 ### Terminal Installation
 
-1. Make sure Python 3.8 is installed. `NOTE:` versions older or newer than 3.5-3.8 will not recognize the libary. 
+1. Make sure Python 3.8 is installed. NOTE: versions older or newer than 3.5-3.8 will not recognize the libary. 
 2. Clone the repo:
 ```
 git clone git@github.com:Seth-Scott/python_discord.git
@@ -132,11 +132,17 @@ TOKEN=yourtokeninfo
 ```
 python -m venv venv
 ```
-6. launch the bot:
+6. install python requirements:
+```
+pip install -r requirements
+```
+7. launch the bot:
 ```
 sh bot.sh
 ```
 The bot should be active and takes no input. Currently, this is not configured to run in the background and the terminal will need to be left open. #TODO do this thing
+
+NOTE: On Mac, you'll have to manually install certificates, otherwise you'll get a lengthy `CERTIFICATE VERIFY FAILED` error. This can be done easily via GUI by navigating to the `Python 3.8` folder in `/Applications/` and launching  `Install Certificates.command` 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
