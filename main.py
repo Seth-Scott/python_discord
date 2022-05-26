@@ -1,8 +1,6 @@
 import discord
 import os
 import time
-from dotenv import load_dotenv
-load_dotenv()
 
 TOKEN = os.getenv("TOKEN")
 
